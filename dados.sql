@@ -54,3 +54,12 @@ INSERT INTO pagamentos (id_pedido, tipo_pagamento, status_pagamento, valor, data
 	(3, 'PIX', 'PENDENTE', 15.00, NULL),
 	(4, 'DÉBITO', 'APROVADO', 22.00, '2026-04-23 14:05:00'),
 	(5, 'PIX', 'APROVADO', 40.00, '2026-04-24 15:05:00');
+
+
+INSERT INTO itens_pedido (id_pedido, id_loja_produto, quantidade, preco_unitario) VALUES
+	(1, 1, 1, 45.00),
+	(1, 2, 1, 6.00),
+	(2, 3, 1, 30.00),
+	(3, 5, 1, 60.00),
+	(4, 6, 1, 15.00);
+
